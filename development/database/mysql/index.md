@@ -77,7 +77,7 @@ B-Tree 索引是 MySQL 数据库中使用最为频繁的索引类型.仅仅在 M
 ## 6.索引失效场景
 ```txt
 1.隐式转换导致不走索引(即字段类型不一致)
-	如age是数字,但是使用字符串值作为筛选条件:select age where age = '2'
+示例: 如age是数字,但是使用字符串值作为筛选条件:select age where age = '2'
 
 2.like模糊查询时,当%在前缀时,索引失效
 
@@ -89,7 +89,8 @@ B-Tree 索引是 MySQL 数据库中使用最为频繁的索引类型.仅仅在 M
 
 6.连表查询字段类型一致,但是字符类型不一致一会导致,索引失效
 
-7.Note：例如 or 、in | not in 、is null | is not null、!=、<>,使用时并不是完全不走索引,要考虑到:
+7.Note：例如 or 、in | not in 、is null | is not null、!=、<>,使用时并不是完全不走索引,
+要考虑到:
 1、全表扫描是否比索引更快，以至于优化器选择全表扫描
 2、mysql-server 的版本
 3、可以通过优化语法或者配置优化器走索引.参考：statement-optimization.html、select-optimization.html、optimization-indexes.html
