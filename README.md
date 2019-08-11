@@ -32,3 +32,4 @@ Syntax highlighted code block
 * **已撰写** [MySQL索引](development/database/mysql/index.md)
 * **已撰写** [MySQL锁](development/database/mysql/lock.md)
 * **已撰写** [MySQL事物](development/database/mysql/transaction.md)
+* **已撰写** [MySQL JSON字段类型](development/database/mysql/field.json.md)
