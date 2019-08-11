@@ -1,7 +1,5 @@
 ## Welcome to GitHub Pages
 
-## 数据库
-
 ### MySQL
 * **已撰写** [MySQL索引](development/database/mysql/index.md)
 * **已撰写** [MySQL锁](development/database/mysql/lock.md)
