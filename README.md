@@ -30,4 +30,4 @@ Syntax highlighted code block
 
 ### MySQL
 * **已撰写** [MySQL索引](development/database/mysql/index.md)
-* **未撰写** [MySQL事物](development/database/mysql/transaction.md)
+* **已撰写** [MySQL事物](development/database/mysql/transaction.md)
