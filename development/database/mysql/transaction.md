@@ -4,17 +4,17 @@
 1.什么是事务
 2.为什么要用事务
 3.事务特性
-	3.1.原子性(Atomicity)
-	3.2.一致性(Consistency)
-	3.3.隔离性(Isolation)
-	3.4.持久性(Durability)
+  3.1.原子性(Atomicity)
+  3.2.一致性(Consistency)
+  3.3.隔离性(Isolation)
+  3.4.持久性(Durability)
 4.事务隔离级别
 5.事务隔离性造成的问题
 6.事务4种隔离级别
-	6.1.未提交读(READ UNCOMMITED)
-	6.2.提交读(READ COMMITTED)
-	6.3.可重复读(REPEATABLE READ)
-	6.4.可串行化(SERIALIZABLE)
+  6.1.未提交读(READ UNCOMMITED)
+  6.2.提交读(READ COMMITTED)
+  6.3.可重复读(REPEATABLE READ)
+  6.4.可串行化(SERIALIZABLE)
 ```
 ## 1.什么是事务
 ```
