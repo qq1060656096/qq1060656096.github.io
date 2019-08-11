@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+[https://qq1060656096.github.io/](https://qq1060656096.github.io/)
 
 ### MySQL
 * **已撰写** [MySQL索引](development/database/mysql/index.md)
