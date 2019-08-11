@@ -9,6 +9,9 @@
 ## 微服务
 * **已撰写** [微服务](development/microservice/index.md)
 
+## 消息队列
+* **未撰写** [Kafka消息队列](development/queue/kafka/index.md)
+
 ## 缓存
 * **已撰写** [应用程序(后端)缓存](development/cache/index.md)
 
