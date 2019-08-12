@@ -6,6 +6,9 @@
 * **已撰写** [MySQL事物](development/database/mysql/transaction.md)
 * **已撰写** [MySQL JSON字段类型](development/database/mysql/field.json.md)
 
+### 单元测试
+* **已撰写** [单元测试](development/test/index.md)
+
 ### 微服务
 * **已撰写** [微服务](development/microservice/index.md)
 
@@ -29,8 +32,5 @@
 * **未撰写** [Oauth2](development/rfc/index.md)
 * **未撰写** [restful](development/rfc/index.md)
 
-
-### 单元测试
-* **未撰写** [单元测试](development/test/index.md)
 
 ### 设计原则
