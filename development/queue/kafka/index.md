@@ -130,8 +130,16 @@ Kafka使用发布订阅模式时,它可以将消息广播给多个消费组,也�
 
 ## 7. 代理(Broker)
 ```
-副本节点必须能与zookeeper保持会话（心跳机制）
-副本能复制leader上的所有写操作，并且不能落后太多。(卡住或滞后的副本控制是由 replica.lag.time.max.ms 配置)
+1.副本节点必须能与zookeeper保持会话（心跳机制）
+2.副本能复制leader上的所有写操作，并且不能落后太多.如果滞后太多(数量滞后和时间滞后两个维度,replica.lag.time.max.ms和replica.lag.max.message可配置)leader会把该replica从ISR中移除
+
+rerplica.lag.time.max.ms=10000
+如果leader发现flower超过10秒没有向它发起fech请求,那么leader考虑这个flower是不是程序出了点问题或者资源紧张调度不过来,
+它太慢了,不希望它拖慢后面的进度,就把它从ISR中移除.
+
+rerplica.lag.max.messages=4000 
+相差4000条就移除,flower慢的时候,保证高可用性,同时满足这两个条件后又加入ISR中,在可用性与一致性做了动态平衡
+
 ```
 
 ## 8. 主题(Topic)

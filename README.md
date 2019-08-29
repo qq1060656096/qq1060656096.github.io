@@ -34,3 +34,5 @@
 
 
 ### 设计原则
+
+* **已撰写** [设计模式七大原则总结](development/design-philosophy/index.md)
